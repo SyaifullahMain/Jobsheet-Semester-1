@@ -1,4 +1,2 @@
 # About
-```text
-Berisi Jobsheet Semester 1
-```
+Jobsheet Semester 1
