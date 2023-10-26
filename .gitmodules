@@ -19,3 +19,6 @@
 [submodule "JS1-Pertemuan7"]
 	path = JS1-Pertemuan7
 	url = https://github.com/syaifulmain/JS1-Pertemuan7.git
+[submodule "JS1-Pertemuan9"]
+	path = JS1-Pertemuan9
+	url = https://github.com/syaifulmain/JS1-Pertemuan9.git
