@@ -24,6 +24,11 @@ public class BioskopWithScanner16 {
                         input.nextLine();
                         continue;
                     }
+                    if (penonton[baris-1][kolom-1]!=null) {
+                        System.out.println("Kursi telah terisi");
+                        input.nextLine();
+                        continue;
+                    }
                     input.nextLine();
                     penonton[baris-1][kolom-1] = nama;
                     System.out.print("Input penonton lainnya? (y/n): ");
