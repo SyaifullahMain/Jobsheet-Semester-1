@@ -19,6 +19,11 @@ public class BioskopWithScanner16 {
                     baris = input.nextInt();
                     System.out.print("Masukan kolom: ");
                     kolom = input.nextInt();
+                    if (baris > 4 || kolom > 2) {
+                        System.out.println("baris/kolom kursi tidak tersedia");
+                        input.nextLine();
+                        continue;
+                    }
                     input.nextLine();
                     penonton[baris-1][kolom-1] = nama;
                     System.out.print("Input penonton lainnya? (y/n): ");
