@@ -18,7 +18,7 @@ public class Quiz16 {
                 int answer = input.nextInt();
                 input.nextLine();
                 success = (answer == number);
-            } while (success);
+            } while (!success);
             System.out.println("Apakah Anda ingin mengulangi permainan (Y/y)");
             menu = input.nextLine().charAt(0);
         } while (menu == 'y' || menu == 'Y');
