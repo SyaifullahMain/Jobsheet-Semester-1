@@ -27,13 +27,29 @@ public class NestedLoop_2341720013 {
             }
             System.out.println();
         }
-        
-        int i = 1;
+
+        int city = 1;
         for (double[] row : temp) {
-            System.out.println("Kota ke-" + i++);
+            System.out.println("Kota ke-" + city++);
             for (double column : row) {
                 System.out.println(column);
             }
+        }
+
+        double[] avTemp = new double[temp.length];
+        for (int i = 0; i < temp.length; i++) {
+            double average = 0;
+            for (int j = 0; j < temp[i].length; j++) {
+                average += temp[i][j];
+            }
+            average /= temp[i].length;
+            avTemp[i] = average;
+        }
+
+        city = 1;
+        System.out.println("Rata-rata suhu masing-masing kota:");
+        for (double value : avTemp) {
+            System.out.printf("Kota ke-%d : %.2f%n", city++, value);
         }
     }
 }
