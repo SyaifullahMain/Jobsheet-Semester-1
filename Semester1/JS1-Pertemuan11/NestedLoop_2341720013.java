@@ -17,12 +17,23 @@ public class NestedLoop_2341720013 {
             }
             System.out.println();
         }
+        for (double[] ds : temp) {
+            
+        }
         for (int i = 0; i < temp.length; i++) {
             System.out.println("Kota ke-" + (i + 1));
             for (int j = 0; j < temp[0].length; j++) {
                 System.out.println(temp[i][j]);
             }
             System.out.println();
+        }
+        
+        int i = 1;
+        for (double[] row : temp) {
+            System.out.println("Kota ke-" + i++);
+            for (double column : row) {
+                System.out.println(column);
+            }
         }
     }
 }
