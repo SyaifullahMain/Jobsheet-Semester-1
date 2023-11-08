@@ -5,8 +5,8 @@ public class Square16 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Masukan nilai N = ");
         int N = sc.nextInt();
-        for (int Outer = 1; Outer <= N; Outer++) {
-            for (int i = 1; i <= N; i++) {
+        for (int Outer = 0; Outer < N; Outer++) {
+            for (int i = 0; i < N; i++) {
                 System.out.print("*");           
             }
             System.out.println();
