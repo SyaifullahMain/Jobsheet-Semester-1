@@ -7,9 +7,13 @@ public class Tugas3 {
     Scanner input = new Scanner(System.in);
     System.out.print("Masukan N = ");
     int N = input.nextInt();
+    String _print = "";
     for (int i = 1; i <= N; i++) {
       for (int j = 1; j <= N; j++) {
-        String _print = (i == 1 || i == N || j == 1 || j == N) ? String.valueOf(N)+" " : "  ";
+        if (N>9) 
+            _print = (i == 1 || i == N || j == 1 || j == N) ? String.valueOf(N) : "  ";
+        else
+            _print = (i == 1 || i == N || j == 1 || j == N) ? String.valueOf(N)+" " : "  ";
         System.out.print(_print);
       }
       System.out.println();
