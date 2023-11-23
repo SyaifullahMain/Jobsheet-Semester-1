@@ -18,6 +18,7 @@ public class Kubus16 {
         tampilNilaiMahasiswa();
         nilaiTertinggiMinggu();
         nilaiTertinggi();
+        scannerClose();
     }
 
     static String inputString(String message) {
@@ -28,6 +29,10 @@ public class Kubus16 {
     static int inputInt(String message) {
         System.out.print(message + " : ");
         return scanner.nextInt();
+    }
+
+    static void scannerClose() {
+        scanner.close();
     }
 
     static void scannerBug() {
