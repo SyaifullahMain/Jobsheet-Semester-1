@@ -56,22 +56,17 @@ public class Kubus16 {
     static void tampilNilaiMahasiswa() {
         String line = "+----+" + "------+".repeat(GMinggu);
         String blank = "|    |";
-        String minggu = "Minggu|";
+        String minggu = "Minggu|".repeat(GMinggu);
         String ke = " ke %-2s|";
         String siswa = "|%-4s|";
         String nilai = " %3s  |";
         System.out.println(line);
-        System.out.print(blank);
-        for (int i = 0; i < GMinggu; i++) {
-            System.out.print(minggu);
-        }
-        System.out.println();
+        System.out.println(blank + minggu);
         System.out.print(blank);
         for (int i = 0; i < GMinggu; i++) {
             System.out.printf(ke, (i + 1));
         }
-        System.out.println();
-        System.out.println(line);
+        System.out.println("\n" + line);
         for (int i = 0; i < GJumlahMahasiswa; i++) {
             System.out.printf(siswa, GNama[i]);
             for (int j = 0; j < GMinggu; j++) {
@@ -116,5 +111,4 @@ public class Kubus16 {
             }
         }
     }
-
 }
