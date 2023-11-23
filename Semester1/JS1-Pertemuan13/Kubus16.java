@@ -4,8 +4,8 @@ public class Kubus16 {
     private static Scanner scanner = new Scanner(System.in);
     private static int[][] GNilaiMahasiswa;
     private static int GMinggu;
-    private static int GJumlahMahasiswa;
     private static String[] GNama;
+    private static int GJumlahMahasiswa;
     public static void main(String[] args) {
         run();
     }
