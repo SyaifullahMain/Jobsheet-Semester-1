@@ -13,8 +13,8 @@ public class Kubus16 {
     static void run () {
         GJumlahMahasiswa = inputInt("Jumlah mahasiswa");
         GMinggu = inputInt("Jumlah minggu");
-        GNama = inputNamaMahasiswa();
-        GNilaiMahasiswa = inputNilaiMahasiswa();
+        inputNamaMahasiswa();
+        inputNilaiMahasiswa();
         tampilNilaiMahasiswa();
         nilaiTertinggiMinggu();
         nilaiTertinggi();
@@ -34,25 +34,23 @@ public class Kubus16 {
         scanner.nextLine();
     }
 
-    static String[] inputNamaMahasiswa() {
-        String[] array = new String[GJumlahMahasiswa];
+    static void inputNamaMahasiswa() {
+        GNama = new String[GJumlahMahasiswa];
         scannerBug();
         System.out.println("Max 4 huruf");
         for (int i = 0; i < GJumlahMahasiswa; i++) {
-            array[i] = inputString("Nama mahasiswa ke-" + (i + 1));
+            GNama[i] = inputString("Nama mahasiswa ke-" + (i + 1));
         }
-        return array;
     }
 
-    static int[][] inputNilaiMahasiswa() {
-        int[][] array = new int[GJumlahMahasiswa][GMinggu];
+    static void inputNilaiMahasiswa() {
+        GNilaiMahasiswa = new int[GJumlahMahasiswa][GMinggu];
         for (int i = 0; i < GJumlahMahasiswa; i++) {
             System.out.println("Nilai " + GNama[i]);
             for (int j = 0; j < GMinggu; j++) {
-                array[i][j] = inputInt("Minggu ke-" + (j + 1));
+                GNilaiMahasiswa[i][j] = inputInt("Minggu ke-" + (j + 1));
             }
         }
-        return array;
     }
 
     static void tampilNilaiMahasiswa() {
