@@ -27,8 +27,7 @@ public class Kubus16 {
     }
 
     static int inputInt(String message) {
-        System.out.print(message + " : ");
-        return scanner.nextInt();
+        return Integer.parseInt(inputString(message));
     }
 
     static void scannerClose() {
