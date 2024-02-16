@@ -18,7 +18,7 @@ public class Perulangan {
 
     static String inputString (String message) {
         System.out.printf("%-15s%s" ,message, " : ");
-        return scanner.nextLine();
+        return scanner.nextLine().trim();
     }
 
     static int inputInt (String message) {

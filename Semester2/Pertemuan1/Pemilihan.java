@@ -46,7 +46,7 @@ public class Pemilihan {
         while (true) {
             try {
                 System.out.printf("%-20s%s" ,message, " : ");
-                return Integer.parseInt(scanner.nextLine());
+                return Integer.parseInt(scanner.nextLine().trim());
             } catch (NumberFormatException ignored) {
                 System.out.println("Input yang dimasukkan harus berupa angka");
             }

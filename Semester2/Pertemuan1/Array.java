@@ -76,7 +76,7 @@ public class Array {
 
     static String inputString (String message) {
         System.out.printf("%-70s%s" ,message, " : ");
-        return scanner.nextLine();
+        return scanner.nextLine().trim();
     }
 
     static int inputInt (String message) {
