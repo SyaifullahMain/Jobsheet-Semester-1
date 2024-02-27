@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/JS1-Pertemuan1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JS1-Pertemuan10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JS1-Pertemuan11" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JS1-Pertemuan13" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JS1-Pertemuan14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JS1-Pertemuan2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JS1-Pertemuan3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JS1-Pertemuan4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JS1-Pertemuan5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JS1-Pertemuan6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JS1-Pertemuan7" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JS1-Pertemuan9" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
