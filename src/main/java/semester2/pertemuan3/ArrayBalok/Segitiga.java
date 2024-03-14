@@ -1,4 +1,4 @@
-package pertemuan3.ArrayBalok;
+package semester2.pertemuan3.ArrayBalok;
 
 public class Segitiga {
     public int alas;

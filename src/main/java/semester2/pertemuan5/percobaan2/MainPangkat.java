@@ -1,4 +1,4 @@
-package pertemuan5.percobaan2;
+package semester2.pertemuan5.percobaan2;
 
 import java.util.Scanner;
 

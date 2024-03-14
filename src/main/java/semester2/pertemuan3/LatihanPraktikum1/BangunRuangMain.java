@@ -1,4 +1,4 @@
-package pertemuan3.LatihanPraktikum1;
+package semester2.pertemuan3.LatihanPraktikum1;
 
 import java.util.Scanner;
 

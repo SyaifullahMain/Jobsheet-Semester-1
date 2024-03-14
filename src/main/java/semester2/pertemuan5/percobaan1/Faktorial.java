@@ -1,4 +1,4 @@
-package pertemuan5.percobaan1;
+package semester2.pertemuan5.percobaan1;
 
 public class Faktorial {
     private int nilai;

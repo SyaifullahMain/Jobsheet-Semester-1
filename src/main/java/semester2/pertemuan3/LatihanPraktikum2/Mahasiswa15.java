@@ -1,4 +1,4 @@
-package pertemuan3.LatihanPraktikum2;
+package semester2.pertemuan3.LatihanPraktikum2;
 
 public class Mahasiswa15 {
     public String nama;

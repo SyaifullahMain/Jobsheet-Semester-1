@@ -1,4 +1,4 @@
-package pertemuan3.ArrayBalok;
+package semester2.pertemuan3.ArrayBalok;
 
 public class SegitigaMain {
     public static void main(String[] args) {

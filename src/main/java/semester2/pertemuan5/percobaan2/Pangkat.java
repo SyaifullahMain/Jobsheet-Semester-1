@@ -1,4 +1,4 @@
-package pertemuan5.percobaan2;
+package semester2.pertemuan5.percobaan2;
 
 public class Pangkat {
     public int nilai, pangkat;
